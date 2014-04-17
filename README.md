@@ -29,17 +29,19 @@ Faça o Download do <a href="http://glassechidna.com.au/heimdall/#downloads">Hei
 
 * Com o reboot feito, precisaremos formatar algumas pastas do aparelho para a nova versão funcionar corretamente.
 
-* No mounts and storage iremos formatar as seguintes pastas, chamamos esta ação de full wipe:
+* entre no menu "mounts and storage", iremos formatar as seguintes pastas (chamamos esta ação de full wipe):
 * /system
 * /cache
 * /data
-* depois disso, iremos no menu advanced para formatar o dalvik cache
+* depois disso, iremos no menu "advanced" e após no menu "dalvik cache", escolha a opção de "Wipe Dalvik Cache"
 
 * Agora com o nosso sistema limpo, iremos efetuar a isntalação da Versão do Cyanogenmod que baixamos (eu aconselho baixar uma versão stable, para evitar alguns problemas)
 
-* No menu iremos escolher a opção, instalar a partir de um sd externo
-* Agora basta clicar no arquivo do Cyanogenmod e esperar a isntalação ser concluída.
-* Pronto, basta efetuar o reboot no aparelho e a nova versão estará instalada.
+* No menu iremos escolher a opção, install zip from sdcard
+* Agora escolha a opção "choose zip from external sdcard"
+* Escolha o ZIP da versão do Cyanogenmod que você baixou e isntale.
+
+* Pronto, basta efetuar o reboot no aparelho e a nova versão estará instalada. No menu raiz existe a opção "reboot system now"
 
 
 
