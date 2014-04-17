@@ -15,7 +15,7 @@ Download and install the <a href="http://glassechidna.com.au/heimdall/#downloads
 
 * Power off the Galaxy Tab 2 7.0 (GSM) and connect the USB adapter to the computer but not to the Galaxy Tab 2 7.0 (GSM), yet.
 
-*Boot the Galaxy Tab 2 7.0 (GSM) into download mode by holding Volume Down & Power. Accept the disclaimer on the device. Then, insert the USB cable into the device.
+* Boot the Galaxy Tab 2 7.0 (GSM) into download mode by holding Volume Down & Power. Accept the disclaimer on the device. Then, insert the USB cable into the device.
 At this point, familiarize yourself with the Flashing heimdall notes below so that you are prepared for any strange behavior if it occurs.
 
 * On the computer, open a terminal (or Command Prompt on Windows) in the directory where the recovery image is located and type:
