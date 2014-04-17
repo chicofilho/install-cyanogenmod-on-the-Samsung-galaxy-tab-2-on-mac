@@ -27,7 +27,7 @@ Faça o Download do <a href="http://glassechidna.com.au/heimdall/#downloads">Hei
 
 * Coloque este arquivo em um cartão micro-sd e insira o cartão no aparelho
 
-* Com o reboot feito, precisaremos formatar algumas pastas do aparelho para a nova versão funcionar corretamente.
+* Com o reboot feito (botão de ligar + aumentar volume), precisaremos formatar algumas pastas do aparelho para a nova versão funcionar corretamente.
 
 * entre no menu "mounts and storage", iremos formatar as seguintes pastas (chamamos esta ação de full wipe):
 * /system
@@ -43,5 +43,6 @@ Faça o Download do <a href="http://glassechidna.com.au/heimdall/#downloads">Hei
 
 * Pronto, basta efetuar o reboot no aparelho e a nova versão estará instalada. No menu raiz existe a opção "reboot system now"
 
+* O boot deve demorar um pouco. Caso demore demais, eu aconselho repetir os passos de fazer o boot no clockworkmod, formatar as pastas indicadas e efetuar a instalação novamente. Já me ocorreu mais de uma vez, a primeira instalação não funciona, mas a segunda sim.
 
 
