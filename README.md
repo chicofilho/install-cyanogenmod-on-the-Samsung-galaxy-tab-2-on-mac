@@ -1,32 +1,36 @@
 Installing cyanogenmod on the Samsung galaxy tab2 using Mac
 =======================================================
 
-Samsung devices come with a unique boot mode called Download Mode which is very similar to Fastboot Mode on some devices with unlocked bootloaders. Heimdall is a cross-platform, open source tool for interfacing with Download Mode on Samsung devices. The preferred method of installing a custom recovery is through this boot mode. Rooting the stock firmware is neither recommended nor necessary.
+Aparelhos da Samsung já vem de fábrica com um módulo de boot chamado de "Downlaod mode", bastante similar ao "Fast boot mode" encontrado em outros aparelhos. Heimdall is a cross-platform, ferramenta open source para interagir com o Download mode de aparelhos Samsung. O modo preferível para se instalar algum recovery é por esse módulo de boot.
 
-Download and install the <a href="http://glassechidna.com.au/heimdall/#downloads">Heimdall Suite</a>
+Faça o Download do <a href="http://glassechidna.com.au/heimdall/#downloads">Heimdall Suite</a> para Mac
 
-* After installation, heimdall should be available from the terminal; type 'heimdall version' to verify installation succeeded.
-
-* Download koush's ClockworkMod Recovery. You can directly download the recovery image using the link below, or visit clockworkmod.com/rommanager to check for the latest version (if your device can be found there). Be careful to select the right image!
+* Após a instalação, o heimdall deve estar acessível por terminal; digite 'heimdall version' para verificar que a instalação foi feita com sucesso
+* Faça o download de koush's ClokworkMod Recovery. Você pode fazer o download dessa recovery image utilizando o link abaixo, ou visite clockworkmod.com/romanager para baixar a última versão (se o aparelho estiver presente na lista deles). Tome bastante cuidade para escolher a imagem correta 
 ** koush's ClockworkMod Recovery: <a href="http://download2.clockworkmod.com/recoveries/recovery-clockwork-6.0.2.3-p3100.img">recovery-clockwork-6.0.2.3-p3100.img
 ** md5: ff97383788b9a5da3cfa35e686a265c9
 
-* The file may not be named identical to what's in the flash command below. If the file is wrapped in a zip or tar file, extract the file and flash that in the flashing step, heimdall does not care what the name is as long as you use the proper partition.
+* O Arquivo não precisa ter o mesmo nome do comando flash que utilizaremos abaixo. Se o arquivo estiver comprimido em zip ou tar, faça a descompactação e utilize ele no comando de flash, heimdall não se importa com o nome da imagem basta que você utilize a partição correta
 
-* Power off the Galaxy Tab 2 7.0 (GSM) and connect the USB adapter to the computer but not to the Galaxy Tab 2 7.0 (GSM), yet.
+* Deslique o seu Galaxy Tab 2 7.0 (GSM) e conecte o adaptador USB no computador, mas não no Galaxy Tab 2 7.0 (GSM), ainda.
 
-* Boot the Galaxy Tab 2 7.0 (GSM) into download mode by holding Volume Down & Power. Accept the disclaimer on the device. Then, insert the USB cable into the device.
-At this point, familiarize yourself with the Flashing heimdall notes below so that you are prepared for any strange behavior if it occurs.
+* Faça o Boot no seu Galaxy Tab 2 7.0 (GSM) no modo de download. Basta precionar a tecla para abaixar o volume em conjunto com a tecla de ligar. Aceite o aviso que aparece no aparelho. Agora sim, conecte o cabo USB no aparelho
+** Neste momento, se familiarize com os comandos do Flashing Heimdall abaixo, assim você estará preparado para qualquer acontecimento não usual
+* No seu Mac, abra um terminal, no diretório onde a recovery image está digite:
+* heimdall flash --RECOVERY recovery.img --no-reboot
 
-* On the computer, open a terminal (or Command Prompt on Windows) in the directory where the recovery image is located and type:
-heimdall flash --RECOVERY recovery.img --no-reboot
+* Uma barra de transferência azul irá aparecer no dipositivo mostrando que a imagem está sendo transferida.
 
-* A blue transfer bar will appear on the device showing the recovery being transferred.
-Unplug the USB cable from your device
+* Agora você pode fazer o reboot manual do aparelho no modo CloworkMod Recovery, basta pressionar o botão de ligar em conjunto com botão de aumentar o volume.
 
-* You can now manually reboot the phone into ClockworkMod Recovery mode by holding the turn on button.
-
+* Faça o download da versão do Cyanogenmod que você gostaria de instalar <a href="http://download.cyanogenmod.org/?device=p3100">aqui (Samsung galaxy tab 2 7.0 (gsm))</a>. Ou uma que você tenha construído.
 * Download the prebuilt release of CyanogenMod you wish to install. (Or if you've built CM yourself, look in the $OUT directory for the .zip.)
-Optional: Download any supplemental 3rd-party applications packages for the device you wish to use.
-** Pass it to a micro sd card
+* Coloque este arquivo em um cartão micro-sd e insira o cartão no aparelho
+
+* Com o reboot feito, precisaremos formatar algumas pastas do aparelho para a nova versão funcionar corretamente.
+
+*  
+
+
+
 
