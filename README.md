@@ -23,8 +23,8 @@ Faça o Download do <a href="http://glassechidna.com.au/heimdall/#downloads">Hei
 
 * Agora você pode fazer o reboot manual do aparelho no modo CloworkMod Recovery, basta pressionar o botão de ligar em conjunto com botão de aumentar o volume.
 
-* Faça o download da versão do Cyanogenmod que você gostaria de instalar. <a href="http://download.cyanogenmod.org/?device=p3100">Aqui estão os downloads para este aparelho (Samsung galaxy tab 2 7.0 (gsm))</a>. Ou uma que você tenha construído.
-* Download the prebuilt release of CyanogenMod you wish to install. (Or if you've built CM yourself, look in the $OUT directory for the .zip.)
+* Faça o download da versão do Cyanogenmod que você gostaria de instalar. <a href="http://download.cyanogenmod.org/?device=p3100">Aqui estão os downloads para este aparelho (Samsung galaxy tab 2 7.0 (gsm))</a>. 
+
 * Coloque este arquivo em um cartão micro-sd e insira o cartão no aparelho
 
 * Com o reboot feito, precisaremos formatar algumas pastas do aparelho para a nova versão funcionar corretamente.
